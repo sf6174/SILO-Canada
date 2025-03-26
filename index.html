@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The SILO Project - Introduction</title>
+  <link href="https://fonts.cdnfonts.com/css/gagalin" rel="stylesheet">
+  <style>
+    @import url('https://fonts.cdnfonts.com/css/gagalin');
+    @import url('https://fonts.googleapis.com/css2?family=Canva+Sans&display=swap');
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Canva Sans', sans-serif;
+      background: #fff7d4;
+      color: #333;
+    }
+    header {
+      background: url('space bg.jpeg') no-repeat center center;
+      background-size: cover;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+      color: #000;
+    }
+    header::before {
+      content: "";
+      position: absolute;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(255, 255, 255, 0);
+      z-index: 1;
+    }
+    header .content {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      max-width: 900px;
+      background: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      border: 4px solid #ffc107;
+      text-align: left;
+    }
+    header h1 {
+      font-family: 'Gagalin', sans-serif;
+      font-size: 2.5rem;
+      margin: 0 0 10px;
+    }
+    nav {
+      text-align: center;
+      background: #ffe066;
+      padding: 10px;
+    }
+    nav a {
+      color: #000;
+      font-family: 'Gagalin', sans-serif;
+      text-decoration: none;
+      margin: 0 15px;
+      padding: 8px 12px;
+      border: 2px solid #e6b800;
+      border-radius: 6px;
+      background-color: #fff3b0;
+    }
+    .container {
+      max-width: 1000px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+    .image-section {
+      background: #ffffff;
+      border: 3px solid #f4c430;
+      border-radius: 10px;
+      padding: 20px;
+      margin-bottom: 40px;
+    }
+    .image-section h2 {
+      display: none;
+    }
+    .image-section img {
+      width: 100%;
+      border-radius: 10px;
+      margin-top: 10px;
+    }
+    footer {
+      background: #ffd700;
+      color: #000;
+      text-align: center;
+      padding: 10px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="content">
+      <h1>INTRO</h1>
+      <p>The SILO Project aims to integrate STEM education in primary classrooms through an interactive way to engage students. This iCapstone adapts the SILO Project for the Ontario curriculum, incorporating sustainability through a narrative approach. It is tailored to Grade 6 students learning the Life Systems unit. The project strives to foster skills for the future, including problem-solving, creativity and technical skills that can be applied to solve real-world challenges.</p>
+    </div>
+  </header>
+
+  <nav>
+    <a href="lesson1.html">Lesson 1</a>
+    <a href="lesson2.html">Lesson 2</a>
+    <a href="lesson3.html">Lesson 3</a>
+    <a href="lesson4.html">Lesson 4</a>
+  </nav>
+
+  <div class="container">
+    <section id="goals" class="image-section">
+      <img src="Project Goals and Progress.png" alt="Project goals illustration">
+    </section>
+
+    <section id="process" class="image-section">
+      <img src="SILO box.png" alt="SILO process steps">
+    </section>
+
+    <section id="feedback" class="image-section">
+      <img src="Classroom Feedback.png" alt="Classroom feedback from students">
+    </section>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 The SILO Project. All rights reserved.</p>
+  </footer>
+</body>
+</html>
+
+
